@@ -1,0 +1,168 @@
+{
+  "Lights": [
+    {
+      "PositionX": -3.0,
+      "PositionY": 2.0,
+      "PositionZ": 0.0,
+      "Enabled": true,
+      "ColourR": 1.0,
+      "ColourG": 0.0,
+      "ColourB": 0.0,
+      "ColourA": 1.0,
+      "DirectionX": 0.0,
+      "DirectionY": -1.0,
+      "DirectionZ": 0.0,
+      "MaxDistance": 3.0
+    },
+    {
+      "PositionX": 0.0,
+      "PositionY": 2.0,
+      "PositionZ": 0.0,
+      "Enabled": true,
+      "ColourR": 0.0,
+      "ColourG": 1.0,
+      "ColourB": 0.0,
+      "ColourA": 1.0,
+      "DirectionX": 0.0,
+      "DirectionY": -1.0,
+      "DirectionZ": 0.0,
+      "MaxDistance": 3.0
+    },
+    {
+      "PositionX": 3.0,
+      "PositionY": 2.0,
+      "PositionZ": 0.0,
+      "Enabled": true,
+      "ColourR": 0.0,
+      "ColourG": 0.0,
+      "ColourB": 1.0,
+      "ColourA": 1.0,
+      "DirectionX": 0.0,
+      "DirectionY": -1.0,
+      "DirectionZ": 0.0,
+      "MaxDistance": 3.0
+    },
+    {
+      "PositionX": 0.0,
+      "PositionY": 5.0,
+      "PositionZ": 20.0,
+      "Enabled": true,
+      "ColourR": 1.0,
+      "ColourG": 0.0,
+      "ColourB": 1.0,
+      "ColourA": 1.0,
+      "DirectionX": 0.0,
+      "DirectionY": -1.0,
+      "DirectionZ": 0.0,
+      "MaxDistance": 10.0
+    },
+    {
+      "PositionX": 4.0,
+      "PositionY": 5.0,
+      "PositionZ": 0.0,
+      "Enabled": true,
+      "ColourR": 1.0,
+      "ColourG": 1.0,
+      "ColourB": 1.0,
+      "ColourA": 1.0,
+      "DirectionX": 0.0,
+      "DirectionY": 0.0,
+      "DirectionZ": 1.0,
+      "MaxDistance": 2.0
+    }
+  ],
+  "ObjectData": [
+    {
+      "Name": "Plane",
+      "MeshData": "Meshes\\Hercules.obj",
+      "Texture": "Textures\\Hercules_COLOR.dds",
+      "SpecMap": "None"
+    },
+    {
+      "Name": "Crate",
+      "MeshData": "Meshes\\cube.obj",
+      "Texture": "Textures\\Crate_COLOR.dds",
+      "SpecMap": "Textures\\Crate_SPEC.dds"
+    },
+    {
+      "Name": "TranslucentCrate",
+      "MeshData": "Meshes\\cube.obj",
+      "Texture": "Textures\\Crate_COLOR.dds",
+      "SpecMap": "Textures\\Crate_SPEC.dds"
+    },
+    {
+      "Name": "Fence",
+      "MeshData": "Meshes\\cube.obj",
+      "Texture": "Textures\\ChainLink.dds",
+      "SpecMap": "None"
+    },
+    {
+      "Name": "Tree",
+      "MeshData": "Meshes\\cube.obj",
+      "Texture": "Textures\\Pine Tree.dds",
+      "SpecMap": "None"
+    }
+  ],
+  "SceneObjects": [
+    {
+      "ObjectName": "Plane",
+      "PositionX": 0.0,
+      "PositionY": 0.0,
+      "PositionZ": 20.0,
+      "RotationX": 0.0,
+      "RotationY": 0.0,
+      "RotationZ": 0.0,
+      "ScaleX": 1.0,
+      "ScaleY": 1.0,
+      "ScaleZ": 1.0
+    },
+    {
+      "ObjectName": "Crate",
+      "PositionX": 4.0,
+      "PositionY": 5.0,
+      "PositionZ": 2.0,
+      "RotationX": 0.0,
+      "RotationY": 0.0,
+      "RotationZ": 0.0,
+      "ScaleX": 0.5,
+      "ScaleY": 0.5,
+      "ScaleZ": 0.5
+    },
+    {
+      "ObjectName": "TranslucentCrate",
+      "PositionX": 10.0,
+      "PositionY": 5.0,
+      "PositionZ": 0.0,
+      "RotationX": 0.0,
+      "RotationY": 0.0,
+      "RotationZ": 0.0,
+      "ScaleX": 0.25,
+      "ScaleY": 0.25,
+      "ScaleZ": 0.25
+    },
+    {
+      "ObjectName": "Fence",
+      "PositionX": -10.0,
+      "PositionY": 2.0,
+      "PositionZ": 5.0,
+      "RotationX": 0.0,
+      "RotationY": 0.0,
+      "RotationZ": 0.0,
+      "ScaleX": 2,
+      "ScaleY": 2,
+      "ScaleZ": 2
+    },
+    {
+      "ObjectName": "Tree",
+      "PositionX": 4.0,
+      "PositionY": 2.0,
+      "PositionZ": 2.0,
+      "RotationX": 0.0,
+      "RotationY": 1.0,
+      "RotationZ": 0.0,
+      "ScaleX": 0.25,
+      "ScaleY": 0.25,
+      "ScaleZ": 0.25
+    }
+  ]
+}
